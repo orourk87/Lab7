@@ -5,3 +5,5 @@ For this lab we had two codes.  One was the CSS file that would pull the data fr
 CCS: For the CSS we implemented a UART system to transmit the samplers serially in 8-bit ascii format.
 
 Visual Studios:   This visual studio code receives the transmitted data in the 8-bit ascii format and converts it to an integer.
+
+Once the data is sent and received it is put into a Thinkspeak channel, into two feilds for light and temperature.
